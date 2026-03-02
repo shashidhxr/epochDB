@@ -9,7 +9,7 @@ import (
 // data points for unique set of labels
 type series struct {
 	mu sync.RWMutex
-	lables []Label
+	labels []Label
 	points []Point
 }
 
